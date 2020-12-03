@@ -13,7 +13,7 @@ USER root
 # Run commands to setup environment
 #
 
-RUN apt-get -y update && apt-get -y upgrade && apt-get -y install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev repo rsync flex bison
+RUN apt-get -y update && apt-get -y upgrade && apt-get -y install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev rsync flex bison
 
 # Give back control to root
 USER root
